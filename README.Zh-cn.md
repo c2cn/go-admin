@@ -1,6 +1,6 @@
 # go-admin
 
-  <img align="right" width="320" src="https://gitee.com/mydearzwj/image/raw/master/img/go-admin.svg">
+  <img align="right" width="320" src="https://raw.githubusercontent.com/wenjianzhang/image/a44d60756c9fdedbd70f6bff076a31cbf314936a/img/go-admin.svg">
 
 
 [![Build Status](https://github.com/wenjianzhang/go-admin/workflows/build/badge.svg)](https://github.com/go-admin-team/go-admin)
@@ -100,6 +100,14 @@
 
 ## 📦 本地开发
 
+### 环境要求
+
+go 1.17
+
+node版本: v14.16.0
+
+npm版本: 6.14.11
+
 ### 开发目录创建
 
 ```bash
@@ -158,7 +166,7 @@ D:\Code\go-admin>go build
 cgo: exec gcc: exec: "gcc": executable file not found in %PATH%
 ```
 
-[解决cgo问题进入](https://doc.go-admin.dev/guide/other/faq.html#_5-cgo-exec-missing-cc-exec-missing-cc-file-does-not-exist)
+[解决cgo问题进入](https://doc.go-admin.dev/zh-CN/guide/faq#cgo-%E7%9A%84%E9%97%AE%E9%A2%98)
 
 :::
 
@@ -180,6 +188,13 @@ $ ./go-admin server -c config/settings.yml
 
 # ⚠️注意:windows 下使用
 $ go-admin.exe server -c config/settings.yml
+```
+
+#### sys_api 表的数据如何添加
+
+在项目启动时，使用`-a true` 系统会自动添加缺少的接口数据
+```bash
+./go-admin server -c config/settings.yml -a true
 ```
 
 #### 使用docker 编译启动

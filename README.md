@@ -1,7 +1,7 @@
 
 # go-admin
 
-<img align="right" width="320" src="https://gitee.com/mydearzwj/image/raw/master/img/go-admin.svg">
+<img align="right" width="320" src="https://raw.githubusercontent.com/wenjianzhang/image/a44d60756c9fdedbd70f6bff076a31cbf314936a/img/go-admin.svg">
 
 
 [![Build Status](https://github.com/wenjianzhang/go-admin/workflows/build/badge.svg)](https://github.com/go-admin-team/go-admin)
@@ -94,6 +94,14 @@ At the same time, a series of tutorials including videos and documents are provi
 
 ## 📦 Local development
 
+### Environmental requirements
+
+go 1.17
+
+nodejs: v14.16.0
+
+npm: 6.14.11
+
 ### Development directory creation
 
 ```bash
@@ -152,7 +160,7 @@ D:\Code\go-admin>go build
 cgo: exec gcc: exec: "gcc": executable file not found in %PATH%
 ```
 
-[Solve the cgo problem and enter](https://doc.go-admin.dev/guide/other/faq.html#_5-cgo-exec-missing-cc-exec-missing-cc-file-does-not-exist)
+[Solve the cgo problem and enter](https://doc.go-admin.dev/guide/faq#cgo-%E7%9A%84%E9%97%AE%E9%A2%98)
 
 :::
 
